@@ -31,19 +31,19 @@ function Dropdown() {
   return (
 
     <section className={styles.filters}>
-      <div classname="filter">
+      <div classname={styles.filter}>
         <h1>Área de Interesse:</h1>
         <Select options={areaint} />
       </div>
-      <div classname="filter">
+      <div classname={styles.filter}>
         <h1>Contrato:</h1>
         <Select options={Contrato} />
       </div>
-      <div classname="filter">
+      <div classname={styles.filter}>
         <h1>Estado:</h1>
         <Select options={Estado} />
       </div>
-      <div classname="filter">
+      <div classname={styles.filter}>
         <h1>Cargo:</h1>
         <Select options={Cargo} />
       </div>

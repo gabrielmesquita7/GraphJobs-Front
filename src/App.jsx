@@ -1,6 +1,5 @@
 import "./App.css";
-import { Dropdown } from "./components";
-import { DougChart } from "./DougChart";
+import { Dropdown, Graphs } from "./components";
 function Header() {
   return (
     <div className="header">
@@ -14,7 +13,7 @@ function App() {
     <div>
       <Header />
       <Dropdown />
-      <DougChart />
+      <Graphs />
     </div>
   );
 }
