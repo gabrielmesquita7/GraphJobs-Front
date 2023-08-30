@@ -1,6 +1,8 @@
 import React from "react";
 import { Doughnut } from "react-chartjs-2";
 import styles from "./charts.module.css";
+import {Chart, ArcElement} from 'chart.js'
+Chart.register(ArcElement);
 
 function PizzaGraph() {
   const data = {
@@ -23,9 +25,11 @@ function PizzaGraph() {
   };
   return (
     <div className={styles.doughnut}>
-    <Doughnut data={data} />
+      <Doughnut data={data} />
     </div>
   );
 }
 
 export default PizzaGraph;
+
+

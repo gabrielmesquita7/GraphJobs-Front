@@ -1,0 +1,8 @@
+.root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border-bottom: 1px solid #eaeaea;
+    font-family: 'Poppins';font-size: 18px;
+}
