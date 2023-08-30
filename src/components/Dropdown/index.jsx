@@ -1,5 +1,6 @@
 import React from "react";
 import Select from "react-select";
+import styles from "./dropdown.module.css"
 
 const areaint = [
   { value: "opcao1", label: "Desenvolvimento web" },
@@ -26,9 +27,10 @@ const Cargo = [
   { value: "opcao3", label: "Gerente" },
 ];
 
-function FilterSection() {
+function Dropdown() {
   return (
-    <section className="filters">
+
+    <section className={styles.filters}>
       <div classname="filter">
         <h1>Área de Interesse:</h1>
         <Select options={areaint} />
@@ -49,4 +51,4 @@ function FilterSection() {
   );
 }
 
-export default FilterSection;
+export default Dropdown;

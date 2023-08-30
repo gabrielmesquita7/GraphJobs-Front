@@ -1,5 +1,5 @@
 import "./App.css";
-import FilterSection from "./FilterSection";
+import { Dropdown } from "./components";
 import { DougChart } from "./DougChart";
 function Header() {
   return (
@@ -13,7 +13,7 @@ function App() {
   return (
     <div>
       <Header />
-      <FilterSection />
+      <Dropdown />
       <DougChart />
     </div>
   );
