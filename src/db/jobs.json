@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "Desenvolvedor Front-end",
+    "company": "TechCo",
+    "location": "São Paulo, SP",
+    "description": "Estamos procurando um desenvolvedor front-end experiente para se juntar à nossa equipe e ajudar a criar incríveis experiências de usuário. Requisitos: conhecimento avançado em HTML, CSS e JavaScript.",
+    "salary": "$60,000 - $80,000 por ano"
+  },
+  {
+    "id": 2,
+    "title": "Designer de UI/UX",
+    "company": "DesignStudio",
+    "location": "Rio de Janeiro, RJ",
+    "description": "Procuramos um designer de UI/UX talentoso para criar designs intuitivos e atraentes para nossos produtos. É necessário experiência em ferramentas de design e compreensão sólida de princípios de design de interface do usuário.",
+    "salary": "$55,000 - $70,000 por ano"
+  },
+  {
+    "id": 3,
+    "title": "Engenheiro de Software Sênior",
+    "company": "SoftCorp",
+    "location": "Belo Horizonte, MG",
+    "description": "Estamos em busca de um engenheiro de software sênior para liderar o desenvolvimento de nossos produtos. Requisitos: experiência em desenvolvimento backend, conhecimento em bancos de dados SQL e NoSQL.",
+    "salary": "$80,000 - $100,000 por ano"
+  },
+  {
+    "id": 4,
+    "title": "Analista de Marketing Digital",
+    "company": "MarketingPro",
+    "location": "Curitiba, PR",
+    "description": "Procuramos um analista de marketing digital para criar e gerenciar campanhas de marketing online. É necessário experiência em SEO, mídias sociais e publicidade online.",
+    "salary": "$50,000 - $65,000 por ano"
+  },
+  {
+    "id": 5,
+    "title": "Gerente de Projetos",
+    "company": "ProjectMasters",
+    "location": "Recife, PE",
+    "description": "Estamos contratando um gerente de projetos para liderar equipes de desenvolvimento de software e garantir a entrega de projetos no prazo e no orçamento. É necessário certificação PMP.",
+    "salary": "$90,000 - $110,000 por ano"
+  },
+  {
+    "id": 6,
+    "title": "Analista de Dados",
+    "company": "DataAnalytics Inc.",
+    "location": "Porto Alegre, RS",
+    "description": "Procuramos um analista de dados para extrair insights valiosos de nossos dados e ajudar na tomada de decisões informadas. É necessário conhecimento em Python e ferramentas de análise de dados.",
+    "salary": "$70,000 - $90,000 por ano"
+  },
+  {
+    "id": 7,
+    "title": "Engenheiro de Rede",
+    "company": "NetTech",
+    "location": "Salvador, BA",
+    "description": "Estamos em busca de um engenheiro de rede para manter e expandir nossa infraestrutura de rede. Requisitos: experiência em configuração de roteadores e switches.",
+    "salary": "$75,000 - $95,000 por ano"
+  },
+  {
+    "id": 8,
+    "title": "Analista de Suporte Técnico",
+    "company": "TechSupport Solutions",
+    "location": "Fortaleza, CE",
+    "description": "Procuramos um analista de suporte técnico para ajudar nossos clientes a resolver problemas técnicos. É necessário habilidades de comunicação e conhecimento em sistemas operacionais.",
+    "salary": "$45,000 - $60,000 por ano"
+  },
+  {
+    "id": 9,
+    "title": "Especialista em Segurança da Informação",
+    "company": "SecureIT",
+    "location": "Manaus, AM",
+    "description": "Estamos contratando um especialista em segurança da informação para proteger nossos sistemas e dados contra ameaças cibernéticas. É necessário experiência em segurança de rede e certificação CISSP.",
+    "salary": "$85,000 - $110,000 por ano"
+  },
+  {
+    "id": 10,
+    "title": "Analista de Recursos Humanos",
+    "company": "HR Solutions",
+    "location": "Porto Velho, RO",
+    "description": "Procuramos um analista de recursos humanos para gerenciar processos de recrutamento, treinamento e desenvolvimento de pessoal. É necessário experiência em RH e habilidades interpessoais.",
+    "salary": "$50,000 - $65,000 por ano"
+  }
+]

@@ -3,16 +3,17 @@ import styles from "./jobresults.module.css";
 import jobicon from "../../assets/images/jobicon.png";
 import officeicon from "../../assets/images/officeicon.png";
 import taskicon from "../../assets/images/taskicon.png";
+import { InfiniteScroll } from "../../components";
 
 function JobResults() {
   return (
     <div className={styles.container}>
         <div className={styles.list}>
-            <header className={styles.header}>
-                <h1>120 Resultados</h1>
-            </header>
             <div className={styles.listitem}>
-                infinite scroll
+                <header className={styles.header}>
+                    <h1>10 Resultados</h1>
+                </header>
+                <InfiniteScroll />
             </div>
         </div>
         <div className={styles.detailjob}>
