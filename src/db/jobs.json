@@ -5,7 +5,16 @@
     "company": "TechCo",
     "location": "São Paulo, SP",
     "description": "Estamos procurando um desenvolvedor front-end experiente para se juntar à nossa equipe e ajudar a criar incríveis experiências de usuário. Requisitos: conhecimento avançado em HTML, CSS e JavaScript.",
-    "salary": "$60,000 - $80,000 por ano"
+    "salary": "$60,000 - $80,000 por ano",
+    "workSchedule": "Integral",
+    "postedAgo": "há 1 mês",
+    "numApplications": 583,
+    "numEmployees": "1.001-5.000 funcionários",
+    "competencies": [
+      "Otimização para mecanismos de busca (SEO)",
+      "Comércio eletrônico",
+      "E mais 8"
+    ]
   },
   {
     "id": 2,
@@ -13,7 +22,16 @@
     "company": "DesignStudio",
     "location": "Rio de Janeiro, RJ",
     "description": "Procuramos um designer de UI/UX talentoso para criar designs intuitivos e atraentes para nossos produtos. É necessário experiência em ferramentas de design e compreensão sólida de princípios de design de interface do usuário.",
-    "salary": "$55,000 - $70,000 por ano"
+    "salary": "$55,000 - $70,000 por ano",
+    "workSchedule": "Meio horário",
+    "postedAgo": "há 2 semanas",
+    "numApplications": 437,
+    "numEmployees": "501-1.000 funcionários",
+    "competencies": [
+      "Design de interface do usuário",
+      "Ferramentas de design",
+      "E mais 5"
+    ]
   },
   {
     "id": 3,
@@ -21,7 +39,16 @@
     "company": "SoftCorp",
     "location": "Belo Horizonte, MG",
     "description": "Estamos em busca de um engenheiro de software sênior para liderar o desenvolvimento de nossos produtos. Requisitos: experiência em desenvolvimento backend, conhecimento em bancos de dados SQL e NoSQL.",
-    "salary": "$80,000 - $100,000 por ano"
+    "salary": "$80,000 - $100,000 por ano",
+    "workSchedule": "Integral",
+    "postedAgo": "há 3 semanas",
+    "numApplications": 726,
+    "numEmployees": "5.001-10.000 funcionários",
+    "competencies": [
+      "Desenvolvimento backend",
+      "Bancos de dados SQL e NoSQL",
+      "E mais 6"
+    ]
   },
   {
     "id": 4,
@@ -29,7 +56,17 @@
     "company": "MarketingPro",
     "location": "Curitiba, PR",
     "description": "Procuramos um analista de marketing digital para criar e gerenciar campanhas de marketing online. É necessário experiência em SEO, mídias sociais e publicidade online.",
-    "salary": "$50,000 - $65,000 por ano"
+    "salary": "$50,000 - $65,000 por ano",
+    "workSchedule": "Integral",
+    "postedAgo": "há 4 semanas",
+    "numApplications": 312,
+    "numEmployees": "101-500 funcionários",
+    "competencies": [
+      "Marketing online",
+      "SEO",
+      "Publicidade online",
+      "E mais 5"
+    ]
   },
   {
     "id": 5,
@@ -37,7 +74,16 @@
     "company": "ProjectMasters",
     "location": "Recife, PE",
     "description": "Estamos contratando um gerente de projetos para liderar equipes de desenvolvimento de software e garantir a entrega de projetos no prazo e no orçamento. É necessário certificação PMP.",
-    "salary": "$90,000 - $110,000 por ano"
+    "salary": "$90,000 - $110,000 por ano",
+    "workSchedule": "Integral",
+    "postedAgo": "há 1 mês",
+    "numApplications": 891,
+    "numEmployees": "10.001+ funcionários",
+    "competencies": [
+      "Gerenciamento de projetos",
+      "Certificação PMP",
+      "E mais 3"
+    ]
   },
   {
     "id": 6,
@@ -45,7 +91,17 @@
     "company": "DataAnalytics Inc.",
     "location": "Porto Alegre, RS",
     "description": "Procuramos um analista de dados para extrair insights valiosos de nossos dados e ajudar na tomada de decisões informadas. É necessário conhecimento em Python e ferramentas de análise de dados.",
-    "salary": "$70,000 - $90,000 por ano"
+    "salary": "$70,000 - $90,000 por ano",
+    "workSchedule": "Meio horário",
+    "postedAgo": "há 2 semanas",
+    "numApplications": 645,
+    "numEmployees": "1.001-5.000 funcionários",
+    "competencies": [
+      "Análise de dados",
+      "Python",
+      "Ferramentas de análise de dados",
+      "E mais 7"
+    ]
   },
   {
     "id": 7,
@@ -53,7 +109,16 @@
     "company": "NetTech",
     "location": "Salvador, BA",
     "description": "Estamos em busca de um engenheiro de rede para manter e expandir nossa infraestrutura de rede. Requisitos: experiência em configuração de roteadores e switches.",
-    "salary": "$75,000 - $95,000 por ano"
+    "salary": "$75,000 - $95,000 por ano",
+    "workSchedule": "Integral",
+    "postedAgo": "há 3 semanas",
+    "numApplications": 524,
+    "numEmployees": "501-1.000 funcionários",
+    "competencies": [
+      "Configuração de roteadores e switches",
+      "Infraestrutura de rede",
+      "E mais 4"
+    ]
   },
   {
     "id": 8,
@@ -61,7 +126,17 @@
     "company": "TechSupport Solutions",
     "location": "Fortaleza, CE",
     "description": "Procuramos um analista de suporte técnico para ajudar nossos clientes a resolver problemas técnicos. É necessário habilidades de comunicação e conhecimento em sistemas operacionais.",
-    "salary": "$45,000 - $60,000 por ano"
+    "salary": "$45,000 - $60,000 por ano",
+    "workSchedule": "Integral",
+    "postedAgo": "há 4 semanas",
+    "numApplications": 275,
+    "numEmployees": "101-500 funcionários",
+    "competencies": [
+      "Suporte técnico",
+      "Comunicação",
+      "Sistemas operacionais",
+      "E mais 2"
+    ]
   },
   {
     "id": 9,
@@ -69,7 +144,17 @@
     "company": "SecureIT",
     "location": "Manaus, AM",
     "description": "Estamos contratando um especialista em segurança da informação para proteger nossos sistemas e dados contra ameaças cibernéticas. É necessário experiência em segurança de rede e certificação CISSP.",
-    "salary": "$85,000 - $110,000 por ano"
+    "salary": "$85,000 - $110,000 por ano",
+    "workSchedule": "Integral",
+    "postedAgo": "há 1 mês",
+    "numApplications": 413,
+    "numEmployees": "1.001-5.000 funcionários",
+    "competencies": [
+      "Segurança da informação",
+      "Segurança de rede",
+      "Certificação CISSP",
+      "E mais 2"
+    ]
   },
   {
     "id": 10,
@@ -77,6 +162,170 @@
     "company": "HR Solutions",
     "location": "Porto Velho, RO",
     "description": "Procuramos um analista de recursos humanos para gerenciar processos de recrutamento, treinamento e desenvolvimento de pessoal. É necessário experiência em RH e habilidades interpessoais.",
-    "salary": "$50,000 - $65,000 por ano"
+    "salary": "$50,000 - $65,000 por ano",
+    "workSchedule": "Integral",
+    "postedAgo": "há 2 semanas",
+    "numApplications": 326,
+    "numEmployees": "1-100 funcionários",
+    "competencies": [
+      "Recrutamento",
+      "Treinamento",
+      "Desenvolvimento de pessoal",
+      "E mais 4"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Desenvolvedor Mobile",
+    "company": "AppTech",
+    "location": "Belém, PA",
+    "description": "Estamos à procura de um desenvolvedor mobile para criar aplicativos incríveis para nossos clientes. Requisitos: conhecimento em desenvolvimento para Android e iOS.",
+    "salary": "$65,000 - $85,000 por ano",
+    "workSchedule": "Integral",
+    "postedAgo": "há 3 semanas",
+    "numApplications": 398,
+    "numEmployees": "501-1.000 funcionários",
+    "competencies": ["Desenvolvimento mobile", "Android", "iOS", "E mais 3"]
+  },
+  {
+    "id": 12,
+    "title": "Analista de Qualidade de Software",
+    "company": "QualitySoft",
+    "location": "Florianópolis, SC",
+    "description": "Procuramos um analista de qualidade de software para garantir que nossos produtos atendam aos mais altos padrões de qualidade. É necessário conhecimento em testes de software.",
+    "salary": "$55,000 - $70,000 por ano",
+    "workSchedule": "Meio horário",
+    "postedAgo": "há 2 semanas",
+    "numApplications": 521,
+    "numEmployees": "101-500 funcionários",
+    "competencies": ["Qualidade de software", "Testes de software", "E mais 4"]
+  },
+  {
+    "id": 13,
+    "title": "Engenheiro de DevOps",
+    "company": "DevOps Solutions",
+    "location": "Brasília, DF",
+    "description": "Estamos em busca de um engenheiro de DevOps para automatizar e otimizar nossos processos de desenvolvimento e implantação. Requisitos: experiência em ferramentas DevOps.",
+    "salary": "$75,000 - $95,000 por ano",
+    "workSchedule": "Integral",
+    "postedAgo": "há 1 mês",
+    "numApplications": 673,
+    "numEmployees": "1.001-5.000 funcionários",
+    "competencies": [
+      "DevOps",
+      "Automatização",
+      "Ferramentas DevOps",
+      "E mais 3"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Analista de Redes Sociais",
+    "company": "SocialMedia Experts",
+    "location": "Natal, RN",
+    "description": "Procuramos um analista de redes sociais para gerenciar nossas contas nas mídias sociais e criar conteúdo envolvente. É necessário conhecimento em estratégias de mídias sociais.",
+    "salary": "$45,000 - $60,000 por ano",
+    "workSchedule": "Meio horário",
+    "postedAgo": "há 2 semanas",
+    "numApplications": 334,
+    "numEmployees": "1-100 funcionários",
+    "competencies": [
+      "Mídias sociais",
+      "Conteúdo envolvente",
+      "Estratégias de mídias sociais",
+      "E mais 2"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Especialista em Data Science",
+    "company": "DataScience Pro",
+    "location": "Vitória, ES",
+    "description": "Estamos contratando um especialista em data science para analisar grandes conjuntos de dados e fornecer insights valiosos. É necessário conhecimento em Python e machine learning.",
+    "salary": "$85,000 - $110,000 por ano",
+    "workSchedule": "Integral",
+    "postedAgo": "há 1 mês",
+    "numApplications": 428,
+    "numEmployees": "501-1.000 funcionários",
+    "competencies": ["Data science", "Python", "Machine learning", "E mais 3"]
+  },
+  {
+    "id": 16,
+    "title": "Analista de Suporte Técnico",
+    "company": "TechSupport Solutions",
+    "location": "João Pessoa, PB",
+    "description": "Procuramos um analista de suporte técnico para ajudar nossos clientes a resolver problemas técnicos. É necessário habilidades de comunicação e conhecimento em sistemas operacionais.",
+    "salary": "$45,000 - $60,000 por ano",
+    "workSchedule": "Integral",
+    "postedAgo": "há 4 semanas",
+    "numApplications": 287,
+    "numEmployees": "101-500 funcionários",
+    "competencies": [
+      "Suporte técnico",
+      "Comunicação",
+      "Sistemas operacionais",
+      "E mais 2"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Engenheiro de Software",
+    "company": "SoftwareTech",
+    "location": "Cuiabá, MT",
+    "description": "Estamos em busca de um engenheiro de software para desenvolver e manter nossos produtos. Requisitos: conhecimento em linguagens de programação.",
+    "salary": "$60,000 - $80,000 por ano",
+    "workSchedule": "Integral",
+    "postedAgo": "há 3 semanas",
+    "numApplications": 419,
+    "numEmployees": "101-500 funcionários",
+    "competencies": [
+      "Engenharia de software",
+      "Linguagens de programação",
+      "E mais 4"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Gerente de Marketing",
+    "company": "MarketingMasters",
+    "location": "Maceió, AL",
+    "description": "Procuramos um gerente de marketing para liderar nossas estratégias de marketing e equipe de marketing. É necessário experiência em marketing digital e liderança de equipe.",
+    "salary": "$70,000 - $90,000 por ano",
+    "workSchedule": "Integral",
+    "postedAgo": "há 2 semanas",
+    "numApplications": 516,
+    "numEmployees": "501-1.000 funcionários",
+    "competencies": ["Marketing digital", "Liderança de equipe", "E mais 4"]
+  },
+  {
+    "id": 19,
+    "title": "Desenvolvedor Full-stack",
+    "company": "FullStack Devs",
+    "location": "Teresina, PI",
+    "description": "Estamos procurando um desenvolvedor full-stack para trabalhar em projetos emocionantes. Requisitos: conhecimento em desenvolvimento front-end e back-end.",
+    "salary": "$65,000 - $85,000 por ano",
+    "workSchedule": "Integral",
+    "postedAgo": "há 1 mês",
+    "numApplications": 367,
+    "numEmployees": "101-500 funcionários",
+    "competencies": [
+      "Desenvolvimento full-stack",
+      "Front-end",
+      "Back-end",
+      "E mais 3"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Analista de Marketing Digital",
+    "company": "MarketingGenius",
+    "location": "Goiânia, GO",
+    "description": "Procuramos um analista de marketing digital para criar e gerenciar campanhas de marketing online. É necessário experiência em SEO, mídias sociais e publicidade online.",
+    "salary": "$55,000 - $70,000 por ano",
+    "workSchedule": "Meio horário",
+    "postedAgo": "há 3 semanas",
+    "numApplications": 422,
+    "numEmployees": "101-500 funcionários",
+    "competencies": ["Marketing digital", "SEO", "Mídias sociais", "E mais 2"]
   }
 ]

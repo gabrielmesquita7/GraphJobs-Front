@@ -3,10 +3,12 @@ import React, { useEffect, useState } from "react";
 import jobsData from "../../db/jobs.json";
 import image from "../../assets/images/officeicon.png";
 
-function InfiniteScroll() {
+function InfiniteScroll({ onJobSelect }) {
   const [jobs, setJobs] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [page, setPage] = useState(1);
+  // eslint-disable-next-line
+  const [selectedJob, setSelectedJob] = useState(null);
 
   useEffect(() => {
     const loadMoreJobs = async () => {
@@ -47,11 +49,16 @@ function InfiniteScroll() {
     };
   }, [isLoading, page]);
 
+  const handleJobClick = (job) => {
+    setSelectedJob(job);
+    onJobSelect(job);
+  };
+
   return (
     <div className={styles.container}>
       <ul>
         {jobs.map((job) => (
-          <li key={job.id}>
+          <li key={job.id} onClick={() => handleJobClick(job)}>
             <img src={image} alt="office icon" />
             <div>
               <h3 align="justify">{job.title}</h3>
