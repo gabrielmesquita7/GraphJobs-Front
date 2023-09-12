@@ -1,8 +1,8 @@
 import React from "react";
 import { Doughnut } from "react-chartjs-2";
 import styles from "./charts.module.css";
-import {Chart, ArcElement} from 'chart.js'
-Chart.register(ArcElement);
+import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js'
+ChartJS.register(ArcElement, Tooltip, Legend);
 
 function PizzaGraph() {
   const data = {
@@ -15,7 +15,7 @@ function PizzaGraph() {
     ],
     datasets: [
       {
-        label: "Popularity",
+        label: "Popularidade",
         data: [50, 65, 20, 15, 10],
         backgroundColor: ["#f44336", "#9c27b0", "#03a9f4", "#8bc34a", "#ffc107"],
         borderColor: "#f44336",
