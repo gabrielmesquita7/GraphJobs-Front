@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './home.module.css'
 import { Dropdown, Graphs } from "../../components";
-import { Header, JobResults } from "../../layout";
+import { Header} from "../../layout";
 
 const index = () => {
   return (
@@ -9,7 +9,6 @@ const index = () => {
       <Header />
       <Dropdown />
       <Graphs />
-      <JobResults />
     </div>
   )
 }
