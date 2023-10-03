@@ -8,9 +8,9 @@ const index = () => {
     <div className={styles.root}>
       <Header />
       <Dropdown />
-      <Graphs />
+      <div className={styles.graphs}><Graphs chartType={"bar"}/> <Graphs chartType={"doughnut"} /></div>
     </div>
-  )
+  );
 }
 
 export default index

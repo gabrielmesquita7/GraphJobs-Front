@@ -1,8 +1,11 @@
 .doughnut {
-    display: flex;
-    margin-top: 100px;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+    margin: 100px;
+    width: 600px;
+    height: 400px;
+  }
+
+  .bar {
+    margin: 100px;
+    width: 600px;
     height: 400px;
   }
