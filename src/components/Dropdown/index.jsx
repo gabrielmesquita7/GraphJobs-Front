@@ -4,9 +4,9 @@ import styles from "./dropdown.module.css";
 
 const areaint = [
   { value: "data-science", label: "Data Science" },
-  { value: "opcao2", label: "Desenvolvimento mobile" },
-  { value: "opcao3", label: "Inteligencia Artificial" },
-  { value: "opcao4", label: "Analise de dados" },
+  { value: "dev-ops", label: "DevOps" },
+  { value: "operational-research", label: "Pesquisa Operacional" },
+  { value: "inteligencia-artificial", label: "Inteligência Artificial" },
 ];
 
 function Dropdown({ onSelectArea }) {
