@@ -1,16 +1,23 @@
-import React from 'react'
+import React, { useState } from 'react';
 import styles from './home.module.css'
 import { Dropdown, Graphs } from "../../components";
 import { Header} from "../../layout";
 
-const index = () => {
+const Index = () => {
+  const [selectedArea, setSelectedArea] = useState(null); 
+
+  const handleAreaSelect = (selectedOption) => {
+    setSelectedArea(selectedOption);
+  };
+
   return (
     <div className={styles.root}>
       <Header />
-      <Dropdown />
-      <div className={styles.graphs}><Graphs chartType={"bar"}/> <Graphs chartType={"doughnut"} /></div>
+      <Dropdown onSelectArea={handleAreaSelect} />
+      <Graphs chartType={"bar"} selectedArea={selectedArea}/>
+      <Graphs chartType={"doughnut"} selectedArea={selectedArea}/>
     </div>
   );
 }
 
-export default index
+export default Index

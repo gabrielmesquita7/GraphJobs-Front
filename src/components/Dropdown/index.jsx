@@ -1,51 +1,31 @@
-import React from "react";
+import React, { useState } from "react";
 import Select from "react-select";
-import styles from "./dropdown.module.css"
+import styles from "./dropdown.module.css";
 
 const areaint = [
-  { value: "opcao1", label: "Desenvolvimento web" },
+  { value: "data-science", label: "Data Science" },
   { value: "opcao2", label: "Desenvolvimento mobile" },
   { value: "opcao3", label: "Inteligencia Artificial" },
   { value: "opcao4", label: "Analise de dados" },
 ];
 
-const Contrato = [
-  { value: "opcao1", label: "Estagio" },
-  { value: "opcao2", label: "CLT" },
-  { value: "opcao3", label: "PJ" },
-];
+function Dropdown({ onSelectArea }) {
+  const [selectedArea, setSelectedArea] = useState(null);
 
-const Estado = [
-  { value: "opcao1", label: "Rio de Janeiro" },
-  { value: "opcao2", label: "São Paulo" },
-  { value: "opcao3", label: "Minas Gerais" },
-];
+  const handleAreaChange = (selectedOption) => {
+    setSelectedArea(selectedOption);
+    onSelectArea(selectedOption); 
+  };
 
-const Cargo = [
-  { value: "opcao1", label: "Desenvolvedor" },
-  { value: "opcao2", label: "Analista" },
-  { value: "opcao3", label: "Gerente" },
-];
-
-function Dropdown() {
   return (
-
     <section className={styles.filters}>
-      <div classname={styles.filter}>
+      <div className={styles.filter}>
         <h1>Área de Interesse:</h1>
-        <Select options={areaint} />
-      </div>
-      <div classname={styles.filter}>
-        <h1>Contrato:</h1>
-        <Select options={Contrato} />
-      </div>
-      <div classname={styles.filter}>
-        <h1>Estado:</h1>
-        <Select options={Estado} />
-      </div>
-      <div classname={styles.filter}>
-        <h1>Cargo:</h1>
-        <Select options={Cargo} />
+        <Select
+          options={areaint}
+          onChange={handleAreaChange}
+          value={selectedArea}
+        />
       </div>
     </section>
   );
